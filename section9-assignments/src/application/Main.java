@@ -16,8 +16,8 @@ public class Main {
 		int number = input.nextInt();
 		
 		System.out.print("Enter account holder: ");
-		String name = input.nextLine();
-		name = input.nextLine();
+		input.nextLine();
+		String name = input.nextLine();		
 		
 		System.out.print("Is there an initial deposit (y/n)? ");
 		char op = input.next().charAt(0);

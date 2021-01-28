@@ -8,7 +8,7 @@ public class Account {
 	public Account(int number, String name, double deposit) {
 		this.number = number;
 		this.name = name;
-		this.deposit = deposit;
+		makeDeposit(deposit);
 	}
 	
 	public Account(int number, String name) {
